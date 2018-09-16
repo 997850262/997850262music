@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Music-all{
     width: 100%;
     margin: 0 auto;
@@ -8,4 +9,16 @@
 }
 body{
     overflow-y: hidden;
+=======
+.Music-all{
+    width: 100%;
+    margin: 0 auto;
+    height: 667px;
+}
+.main{
+    height: 550px;
+}
+body{
+    overflow-y: hidden;
+>>>>>>> 0c6edde90f520a769c2599bb8280a3155721c8fd
 }

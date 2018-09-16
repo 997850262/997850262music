@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .RecommendMusic-all{
     /* margin-left: 10px; */
     margin-top: 20px;
@@ -18,4 +19,26 @@
     margin-top: 10px;
     width: 100%;
     border-bottom:1px solid #ccc;
+=======
+.RecommendMusic-all{
+    /* margin-left: 10px; */
+    margin-top: 20px;
+    padding-bottom: 80px;
+    /* height: 260px; */
+    overflow: auto;
+}
+.RecommendMusic-title{
+    text-indent:10px;
+    font-size: 22px;
+    font-weight: 550;
+}
+.RecommendMusic-list{
+    /* padding-left: 30px; */
+}
+.RecommendMusic-list-all{
+    text-indent:30px;
+    margin-top: 10px;
+    width: 100%;
+    border-bottom:1px solid #ccc;
+>>>>>>> 0c6edde90f520a769c2599bb8280a3155721c8fd
 }
