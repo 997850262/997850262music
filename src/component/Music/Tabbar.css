@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .Tabbar-all{
     display: flex;
     justify-content:space-around;
@@ -17,23 +16,3 @@
 a{
     text-decoration: none;
 }
-=======
-.Tabbar-all{
-    display: flex;
-    justify-content:space-around;
-    height: 28px;
-}
-.Tabbar-1{
-    font-size: 20px;
-    display: block
-}
-.Tabbar-2{
-    font-size: 20px;
-}
-.Tabbar-3{
-    font-size: 20px;
-}
-a{
-    text-decoration: none;
-}
->>>>>>> 0c6edde90f520a769c2599bb8280a3155721c8fd
