@@ -4,15 +4,13 @@ import './App.css';
 import configureStore from './store/configureStore';
 import { Router, browserHistory } from 'react-router';
 import routes from './routes';
-import Music from './Container/Music';
 
 const store = configureStore();
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <Music />
-        {/* <Router routes={routes} history={browserHistory} /> */}
+        <Router routes={routes} history={browserHistory} />
       </Provider>
     );
   }
