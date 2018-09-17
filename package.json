@@ -13,7 +13,8 @@
     "eslint-plugin-import": "^2.10.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.1.0",
-    "gh-pages": "^2.0.0",
+    "gh-pages": "^1.1.0",
+    "react-scripts": "0.7.0",
     "react-app-rewire-less": "^2.1.2",
     "react-app-rewired": "^1.5.2"
   },
