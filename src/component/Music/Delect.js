@@ -14,8 +14,15 @@ export default class Delect extends React.Component {
     // const name = this.state.name;
     const { name } = this.state;
     //   console.log(name)
-    todoActions.rename(name);
-    this.props.onCancel();
+    if (name === '') {
+      alert('名字不能为空');
+    } else {
+      todoActions.rename(name);
+      this.props.onCancel();
+    }
+    this.setState({
+      name: ''
+    });
   }
   getMaskClassName = isAcitve => {
     console.log(123987);
@@ -68,7 +75,7 @@ export default class Delect extends React.Component {
           <input
             className="rename-input"
             type="text"
-            defaultValue={music.music.entities.list[music.music.selectid].name}
+            defaultValue={this.state.name}
             onChange={this.handlerename}
           />
           <div className="rename-btn">
